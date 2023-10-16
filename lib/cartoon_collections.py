@@ -1,5 +1,6 @@
 def roll_call_dwarves():
-    pass
+    for i, dwarf in enumerate(dwarves,start=1):
+        print(f"{i}. {dwarf}")
 
 def summon_captain_planet():
     pass
